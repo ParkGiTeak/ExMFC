@@ -54,7 +54,7 @@ CGawiDialog::CGawiDialog(CWnd* pParent /*=NULL*/)
 	: CDialogEx(CGawiDialog::IDD, pParent)
 	, m_nPlayer1(0)
 	, m_nPlayer2(0)
-	, m_oResult(_T(""))
+	, m_oResult(_T("가위:1, 바위:2, 보:3"))
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 }
